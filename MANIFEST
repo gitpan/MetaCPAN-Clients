@@ -5,5 +5,6 @@ META.yml
 Makefile.PL
 README
 bin/metacpan_meta.pl
+bin/metacpan_namespace.pl
 dist.ini
 lib/MetaCPAN/Clients.pm

@@ -14,5 +14,6 @@ meta-spec:
 name: MetaCPAN-Clients
 requires:
   Data::Dumper: 0
+  Getopt::Long: 0
   MetaCPAN::API: 0.43
-version: 0.01
+version: 0.02

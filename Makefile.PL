@@ -18,15 +18,18 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "MetaCPAN-Clients",
   "EXE_FILES" => [
     "bin/metacpan_meta.pl",
-    "bin/metacpan_meta.pl"
+    "bin/metacpan_namespace.pl",
+    "bin/metacpan_meta.pl",
+    "bin/metacpan_namespace.pl"
   ],
   "LICENSE" => "perl",
   "NAME" => "MetaCPAN::Clients",
   "PREREQ_PM" => {
     "Data::Dumper" => 0,
+    "Getopt::Long" => 0,
     "MetaCPAN::API" => "0.43"
   },
-  "VERSION" => "0.01",
+  "VERSION" => "0.02",
   "test" => {
     "TESTS" => ""
   }
