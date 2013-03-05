@@ -1,0 +1,43 @@
+{
+   "abstract" : "A set of scripts to access MetaCPAN.org via its API and provide reports",
+   "author" : [
+      "Gabor Szabo <szabgab@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.300030, CPAN::Meta::Converter version 2.120921",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MetaCPAN-Clients",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.30"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Data::Dumper" : "0",
+            "Getopt::Long" : "0",
+            "MetaCPAN::API" : "0.43"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "repository" : {
+         "type" : "git",
+         "url" : "https://github.com/szabgab/MetaCPAN-Clients.git",
+         "web" : "https://github.com/szabgab/MetaCPAN-Clients"
+      }
+   },
+   "version" : "0.03",
+   "x_contributors" : [
+      "SZABGAB"
+   ]
+}
+

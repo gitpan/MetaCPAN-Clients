@@ -9,7 +9,7 @@ use ExtUtils::MakeMaker 6.30;
 
 
 my %WriteMakefileArgs = (
-  "ABSTRACT" => "A set of script to access MetaCPAN.org and provide reports",
+  "ABSTRACT" => "A set of scripts to access MetaCPAN.org via its API and provide reports",
   "AUTHOR" => "Gabor Szabo <szabgab\@cpan.org>",
   "BUILD_REQUIRES" => {},
   "CONFIGURE_REQUIRES" => {
@@ -18,8 +18,12 @@ my %WriteMakefileArgs = (
   "DISTNAME" => "MetaCPAN-Clients",
   "EXE_FILES" => [
     "bin/metacpan_meta.pl",
+    "bin/metacpan_reverse_dependencies.pl",
+    "bin/metacpan_impact.pl",
     "bin/metacpan_namespace.pl",
     "bin/metacpan_meta.pl",
+    "bin/metacpan_reverse_dependencies.pl",
+    "bin/metacpan_impact.pl",
     "bin/metacpan_namespace.pl"
   ],
   "LICENSE" => "perl",
@@ -29,7 +33,7 @@ my %WriteMakefileArgs = (
     "Getopt::Long" => 0,
     "MetaCPAN::API" => "0.43"
   },
-  "VERSION" => "0.02",
+  "VERSION" => "0.03",
   "test" => {
     "TESTS" => ""
   }

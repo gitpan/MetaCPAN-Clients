@@ -1,9 +1,9 @@
 
 
 This archive contains the distribution MetaCPAN-Clients,
-version 0.02:
+version 0.03:
 
-  A set of script to access MetaCPAN.org and provide reports
+  A set of scripts to access MetaCPAN.org via its API and provide reports
 
 This software is copyright (c) 2013 by Gabor Szabo.
 
