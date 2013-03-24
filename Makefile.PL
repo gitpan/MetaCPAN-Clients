@@ -21,19 +21,22 @@ my %WriteMakefileArgs = (
     "bin/metacpan_reverse_dependencies.pl",
     "bin/metacpan_impact.pl",
     "bin/metacpan_namespace.pl",
+    "bin/metacpan_favorite.pl",
     "bin/metacpan_meta.pl",
     "bin/metacpan_reverse_dependencies.pl",
     "bin/metacpan_impact.pl",
-    "bin/metacpan_namespace.pl"
+    "bin/metacpan_namespace.pl",
+    "bin/metacpan_favorite.pl"
   ],
   "LICENSE" => "perl",
   "NAME" => "MetaCPAN::Clients",
   "PREREQ_PM" => {
     "Data::Dumper" => 0,
     "Getopt::Long" => 0,
-    "MetaCPAN::API" => "0.43"
+    "MetaCPAN::API" => "0.43",
+    "Path::Tiny" => "0.015"
   },
-  "VERSION" => "0.03",
+  "VERSION" => "0.04",
   "test" => {
     "TESTS" => ""
   }

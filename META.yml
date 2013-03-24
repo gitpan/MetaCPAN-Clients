@@ -16,8 +16,10 @@ requires:
   Data::Dumper: 0
   Getopt::Long: 0
   MetaCPAN::API: 0.43
+  Path::Tiny: 0.015
 resources:
   repository: https://github.com/szabgab/MetaCPAN-Clients.git
-version: 0.03
+version: 0.04
 x_contributors:
   - SZABGAB
+  - DAGOLDEN

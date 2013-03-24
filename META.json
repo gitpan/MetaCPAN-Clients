@@ -23,7 +23,8 @@
          "requires" : {
             "Data::Dumper" : "0",
             "Getopt::Long" : "0",
-            "MetaCPAN::API" : "0.43"
+            "MetaCPAN::API" : "0.43",
+            "Path::Tiny" : "0.015"
          }
       }
    },
@@ -35,9 +36,10 @@
          "web" : "https://github.com/szabgab/MetaCPAN-Clients"
       }
    },
-   "version" : "0.03",
+   "version" : "0.04",
    "x_contributors" : [
-      "SZABGAB"
+      "SZABGAB",
+      "DAGOLDEN"
    ]
 }
 
